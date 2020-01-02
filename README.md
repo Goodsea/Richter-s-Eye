@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 ## The Solution 
 
 ### GEO-Embed
-Machine Learning Methods are not efficient in classification/regression tasks if "identical data" (ID) given to model as input. So we propose to use autoencoder model to extract valuable information from identical data. We give specific location id ("geo_level_3_id") as input and larger location ids ("geo_level_1_id", "geo_level_2_id") as output, to Keras AutoEncoder Model. There is just one hidden layer and it has 16 neurons. Later then we assign this embedded features to training and testig data.
+Machine Learning Methods are not efficient in classification/regression tasks if "identical data" (ID) given to model as input. So we propose to use autoencoder model to extract valuable information from identical data. We give specific location id ("geo_level_3_id") as input and larger location ids ("geo_level_1_id", "geo_level_2_id") as output, to Keras AutoEncoder Model. There is just one hidden layer and it has 16 neurons. Later then we assign this embedded features to training and testing data.
 
 ### 5-Fold Cross Validation Training with LightGBM Model
 - LightGBM Model Parameters
