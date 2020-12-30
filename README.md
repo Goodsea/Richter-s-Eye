@@ -48,7 +48,7 @@ lgb_params = {
 We ensemble K-Fold(CV) models with adding all confidence score by class. Then apply threshold to ensemble results.
 
 ## License 
-This project is licensed under MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for details.
+This project is licensed under MIT License - see the <a href="LICENSE">LICENSE.md</a> file for details.
 
 ## Contact
 E-mail: kutsal_baran@hotmail.com
